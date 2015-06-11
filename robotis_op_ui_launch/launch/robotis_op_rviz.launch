@@ -1,0 +1,7 @@
+<launch>
+
+  <!--Provide option to set namespace from outside-->
+  <arg name="namespace" default="/robotis_op"/>
+  <group ns="$(arg namespace)">
+   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find robotis_op_ui_launch)/rviz/robotis_op.rviz"/>  </group>
+</launch>
