@@ -9,7 +9,7 @@
   </group>   
 
   <!-- Robot description -->
-    <param name="robot_description" textfile="$(find robotis_op_description)/urdf/darwin.urdf" />
+    <param name="robot_description" textfile="$(find robotis_op_description)/urdf/robotis_op.urdf" />
 <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" >
       <remap from="joint_states" to="robotis_op/joint_states" />
     </node>
