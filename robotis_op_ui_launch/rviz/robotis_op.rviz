@@ -9,8 +9,9 @@ Panels:
         - /TF1
         - /RobotModel1
         - /Image1
+        - /Image2
       Splitter Ratio: 0.5
-    Tree Height: 397
+    Tree Height: 217
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -56,13 +57,115 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        MP_ANKLE1_L:
+          Value: true
+        MP_ANKLE1_R:
+          Value: true
+        MP_ANKLE2_L:
+          Value: true
+        MP_ANKLE2_R:
+          Value: true
+        MP_ARM_GRIPPER_FIX_DUMMY_L:
+          Value: true
+        MP_ARM_GRIPPER_FIX_DUMMY_R:
+          Value: true
+        MP_ARM_GRIPPER_FIX_L:
+          Value: true
+        MP_ARM_GRIPPER_FIX_R:
+          Value: true
+        MP_ARM_GRIPPER_MOV_L:
+          Value: true
+        MP_ARM_GRIPPER_MOV_R:
+          Value: true
+        MP_ARM_HIGH_L:
+          Value: true
+        MP_ARM_HIGH_R:
+          Value: true
+        MP_ARM_LOW_L:
+          Value: true
+        MP_ARM_LOW_R:
+          Value: true
+        MP_BACK_L:
+          Value: true
+        MP_BACK_R:
+          Value: true
+        MP_BODY:
+          Value: true
+        MP_HEAD:
+          Value: true
+        MP_NECK:
+          Value: true
+        MP_PELVIS_L:
+          Value: true
+        MP_PELVIS_R:
+          Value: true
+        MP_PMDCAMBOARD:
+          Value: true
+        MP_SHOULDER_L:
+          Value: true
+        MP_SHOULDER_R:
+          Value: true
+        MP_THIGH1_L:
+          Value: true
+        MP_THIGH1_R:
+          Value: true
+        MP_THIGH2_L:
+          Value: true
+        MP_THIGH2_R:
+          Value: true
+        MP_TIBIA_L:
+          Value: true
+        MP_TIBIA_R:
+          Value: true
+        base_link:
+          Value: true
+        world:
+          Value: true
       Marker Scale: 0.2
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: false
       Tree:
-        {}
+        world:
+          base_link:
+            MP_BODY:
+              MP_BACK_L:
+                MP_SHOULDER_L:
+                  MP_ARM_HIGH_L:
+                    MP_ARM_LOW_L:
+                      MP_ARM_GRIPPER_FIX_L:
+                        MP_ARM_GRIPPER_FIX_DUMMY_L:
+                          {}
+                        MP_ARM_GRIPPER_MOV_L:
+                          {}
+              MP_BACK_R:
+                MP_SHOULDER_R:
+                  MP_ARM_HIGH_R:
+                    MP_ARM_LOW_R:
+                      MP_ARM_GRIPPER_FIX_R:
+                        MP_ARM_GRIPPER_FIX_DUMMY_R:
+                          {}
+                        MP_ARM_GRIPPER_MOV_R:
+                          {}
+              MP_NECK:
+                MP_HEAD:
+                  MP_PMDCAMBOARD:
+                    {}
+              MP_PELVIS_L:
+                MP_THIGH1_L:
+                  MP_THIGH2_L:
+                    MP_TIBIA_L:
+                      MP_ANKLE1_L:
+                        MP_ANKLE2_L:
+                          {}
+              MP_PELVIS_R:
+                MP_THIGH1_R:
+                  MP_THIGH2_R:
+                    MP_TIBIA_R:
+                      MP_ANKLE1_R:
+                        MP_ANKLE2_R:
+                          {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -75,6 +178,159 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        MP_ANKLE1_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ANKLE1_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ANKLE2_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ANKLE2_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_FIX_DUMMY_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_FIX_DUMMY_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_FIX_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_FIX_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_MOV_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_GRIPPER_MOV_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_HIGH_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_HIGH_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_LOW_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_ARM_LOW_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_BACK_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_BACK_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_BODY:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_HEAD:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_NECK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_PELVIS_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_PELVIS_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_PMDCAMBOARD:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        MP_SHOULDER_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_SHOULDER_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_THIGH1_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_THIGH1_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_THIGH2_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_THIGH2_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_TIBIA_L:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        MP_TIBIA_R:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -83,7 +339,18 @@ Visualization Manager:
       Visual Enabled: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /robotis_op/image
+      Image Topic: /robotis_op/camera/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /robotis_op/ball_tracker/image_transformed_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -141,7 +408,7 @@ Window Geometry:
   Hide Right Dock: true
   Image:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000010f000002e2fc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650100000028000000c00000001600fffffffb000000100044006900730070006c00610079007301000000ee0000021c000000dd00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261000000010000010f000002c6fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c6000000b000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000006110000003efc0100000002fb0000000800540069006d0065010000000000000611000002f600fffffffb0000000800540069006d00650100000000000004500000000000000000000004fc000002e200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000004000000000000010f000002e2fc020000000bfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000006400fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000000a0049006d0061006700650100000028000000c00000000000000000fb000000100044006900730070006c006100790073010000002800000168000000dd00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d0061006700650100000196000000af0000001600fffffffb0000000a0049006d006100670065010000024b000000bf0000001600ffffff000000010000010f000002c6fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000002c6000000b000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000006110000003efc0100000002fb0000000800540069006d0065010000000000000611000002f600fffffffb0000000800540069006d00650100000000000004500000000000000000000004fc000002e200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
