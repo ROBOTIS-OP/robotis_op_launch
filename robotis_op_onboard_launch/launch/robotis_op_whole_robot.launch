@@ -9,7 +9,9 @@
   </group>   
 
   <!-- Robot description -->
-    <param name="robot_description" textfile="$(find robotis_op_description)/urdf/robotis_op.urdf" />
+    <param name="robot_description"
+   command="$(find xacro)/xacro.py '$(find robotis_op_description)/robots/robotis_op.urdf.xacro'" />
+
 <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" >
       <remap from="joint_states" to="robotis_op/joint_states" />
     </node>
